@@ -1,0 +1,11 @@
+
+IOC(即依赖注入)常见的注入形式有三种：构造函数时注入，set方法注入，调用真正的业务函数时以入参注入（最原始的方法）
+控制反转：Inverse of Control
+
+
+https://blog.csdn.net/vincentff7zg/article/details/56841365
+
+
+
+
+
