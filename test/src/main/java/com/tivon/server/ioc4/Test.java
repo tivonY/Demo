@@ -3,8 +3,6 @@ package com.tivon.server.ioc4;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
-import com.tivon.server.aop2.IUserDao;
-
 public class Test {
 	
 	public static void main(String[] args) {
@@ -18,8 +16,9 @@ public class Test {
 //	    </bean>
 
         ApplicationContext appCtx = new FileSystemXmlApplicationContext("application.xml"); 
-        MoAttack moAttack = (MoAttack) appCtx.getBean("moAttack");
-        moAttack.cityGateAsk();
+        User user = (User) appCtx.getBean("moAttack");
+        user.responseCall();
+        
 	}
 
 }

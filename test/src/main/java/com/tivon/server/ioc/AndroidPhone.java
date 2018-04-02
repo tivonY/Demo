@@ -1,8 +1,8 @@
 package com.tivon.server.ioc;
 
-public class LiuDeHua {
+public class AndroidPhone {
 
-	public void responseAsk(String mess){
+	public void responseCall(String mess){
 		System.out.println(mess);
 	}
 }
